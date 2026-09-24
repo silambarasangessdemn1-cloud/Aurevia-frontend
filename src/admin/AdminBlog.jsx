@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 const AdminBlog = () => {
   const [title, setTitle] = useState('');
@@ -11,7 +12,7 @@ const AdminBlog = () => {
 
   const fetchBlogs = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/blogs');
+      const res = await fetch(`${API_BASE_URL}/blogs`);
       if (res.ok) {
         const data = await res.json();
         setBlogs(data);
@@ -66,7 +67,7 @@ const AdminBlog = () => {
       setStatus(editingId ? 'Updating...' : 'Uploading...');
       const url = editingId 
         ? `http://localhost:5001/api/blogs/${editingId}` 
-        : 'http://localhost:5001/api/blogs';
+        : `${API_BASE_URL}/blogs`;
         
       const response = await fetch(url, {
         method: editingId ? 'PUT' : 'POST',

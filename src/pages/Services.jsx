@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -8,7 +9,7 @@ const Services = () => {
   useEffect(() => {
     const fetchServices = async () => {
       try {
-        const response = await fetch('http://localhost:5001/api/services');
+        const response = await fetch(`${API_BASE_URL}/services`);
         if (response.ok) {
           const data = await response.json();
           setServices(data);

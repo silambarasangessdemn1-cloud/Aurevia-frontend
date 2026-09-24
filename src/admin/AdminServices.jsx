@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 const AdminServices = () => {
   const [title, setTitle] = useState('');
@@ -11,7 +12,7 @@ const AdminServices = () => {
 
   const fetchServices = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/services');
+      const res = await fetch(`${API_BASE_URL}/services`);
       if (res.ok) {
         const data = await res.json();
         setServices(data);
@@ -66,7 +67,7 @@ const AdminServices = () => {
       setStatus(editingId ? 'Updating...' : 'Uploading...');
       const url = editingId 
         ? `http://localhost:5001/api/services/${editingId}` 
-        : 'http://localhost:5001/api/services';
+        : `${API_BASE_URL}/services`;
         
       const response = await fetch(url, {
         method: editingId ? 'PUT' : 'POST',

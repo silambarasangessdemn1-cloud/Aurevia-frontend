@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 const Gallery = () => {
   const [galleryItems, setGalleryItems] = useState([]);
@@ -8,7 +9,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchGallery = async () => {
       try {
-        const response = await fetch('http://localhost:5001/api/gallery');
+        const response = await fetch(`${API_BASE_URL}/gallery`);
         if (response.ok) {
           const data = await response.json();
           setGalleryItems(data);

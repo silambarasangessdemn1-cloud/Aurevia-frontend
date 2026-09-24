@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from '../config';
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
@@ -8,7 +9,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch('http://localhost:5001/api/blogs');
+        const response = await fetch(`${API_BASE_URL}/blogs`);
         if (response.ok) {
           const data = await response.json();
           setBlogs(data);

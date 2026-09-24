@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 const AdminGallery = () => {
   const [title, setTitle] = useState('');
@@ -9,7 +10,7 @@ const AdminGallery = () => {
 
   const fetchGallery = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/gallery');
+      const res = await fetch(`${API_BASE_URL}/gallery`);
       if (res.ok) {
         const data = await res.json();
         setGalleryItems(data);
@@ -59,7 +60,7 @@ const AdminGallery = () => {
 
     try {
       setStatus('Uploading...');
-      const response = await fetch('http://localhost:5001/api/gallery', {
+      const response = await fetch(`${API_BASE_URL}/gallery`, {
         method: 'POST',
         body: formData,
       });
