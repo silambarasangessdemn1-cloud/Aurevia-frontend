@@ -40,7 +40,7 @@ const Footer = () => {
             <h4>Contact Info</h4>
             <div className="contact-line">
               <i className="fa-solid fa-location-dot"></i>
-              <span>Thoothukudi, Tamil Nadu, India</span>
+              <span>No.79/90, voc street Kamaraj Nagar New Perungalathur peerkankaranai chennai 63</span>
             </div>
             <div className="contact-line">
               <i className="fa-regular fa-envelope"></i>
