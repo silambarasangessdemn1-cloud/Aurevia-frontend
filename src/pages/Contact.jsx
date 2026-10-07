@@ -44,7 +44,7 @@ const Contact = () => {
                   <div className="info-icon"><i className="fa-solid fa-location-dot"></i></div>
                   <div className="info-text">
                     <h4>Clinic Location</h4>
-                    <p>Thoothukudi, Tamil Nadu<br />India</p>
+                    <p>No.79/90, voc street<br />Kamaraj Nagar, New Perungalathur<br />peerkankaranai, chennai 63</p>
                   </div>
                 </div>
 
