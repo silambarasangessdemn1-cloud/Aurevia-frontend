@@ -491,18 +491,18 @@ Start your journey towards a pain-free and healthier life.
 </p>
 </div>
 <div className="cta-right">
-<a className="cta-btn" href="tel:+919629765870">
+<a className="cta-btn" href="tel:+919629767173">
 <i className="fa-regular fa-calendar"></i>
 
   Book Your Appointment
 
 <i className="fa-solid fa-chevron-right"></i>
 </a>
-<a className="phone" href="tel:+919629765870">
+<a className="phone" href="tel:+919629767173">
 <i className="fa-solid fa-phone"></i>
 <div>
 <strong>
-9629765870
+9629767173
 </strong>
 <small>
 Call us for appointments

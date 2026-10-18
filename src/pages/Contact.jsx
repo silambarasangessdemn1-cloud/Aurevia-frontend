@@ -10,7 +10,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const text = `Hello, I have an inquiry.%0A%0A*Name*: ${formState.name}%0A*Email*: ${formState.email}%0A*Phone*: ${formState.phone}%0A*Message*: ${formState.message}`;
-    const whatsappUrl = `https://wa.me/919629765870?text=${text}`;
+    const whatsappUrl = `https://wa.me/919629767173?text=${text}`;
     window.open(whatsappUrl, '_blank');
     setFormState({ name: '', email: '', phone: '', message: '' });
   };
@@ -52,7 +52,7 @@ const Contact = () => {
                   <div className="info-icon"><i className="fa-solid fa-phone"></i></div>
                   <div className="info-text">
                     <h4>Call Us Directly</h4>
-                    <p><a href="tel:+919629765870">+91 96297 65870</a></p>
+                    <p><a href="tel:+919629767173">+91 96297 67173</a></p>
                     <small>Available during clinic hours</small>
                   </div>
                 </div>

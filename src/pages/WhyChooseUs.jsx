@@ -119,14 +119,14 @@ const WhyChooseUs = () => {
             <p style={{ fontSize: '16px', color: '#74817f', marginBottom: '35px' }}>Start your journey towards a pain-free and healthier life today.</p>
             
             <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-              <a href="tel:+919629765870" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: 'var(--teal)', color: '#fff', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'background 0.3s ease' }}>
+              <a href="tel:+919629767173" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: 'var(--teal)', color: '#fff', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'background 0.3s ease' }}>
                 <i className="fa-regular fa-calendar-check"></i> Book Appointment
               </a>
-              <a href="tel:+919629765870" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', background: '#fff', color: '#164344', border: '1px solid #d4e0df', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'all 0.3s ease' }}>
+              <a href="tel:+919629767173" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', background: '#fff', color: '#164344', border: '1px solid #d4e0df', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'all 0.3s ease' }}>
                 <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#eaf1ed', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--teal)' }}>
                   <i className="fa-solid fa-phone"></i>
                 </div>
-                9629765870
+                9629767173
               </a>
             </div>
           </div>

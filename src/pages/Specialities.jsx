@@ -107,11 +107,11 @@ const Specialities = () => {
             <p style={{ fontSize: '16px', color: '#a8c0bf', marginBottom: '35px' }}>Start your journey towards a pain-free and healthier life today.</p>
             
             <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-              <a href="tel:+919629765870" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: 'var(--gold)', color: '#164344', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '700', fontSize: '16px', transition: 'transform 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+              <a href="tel:+919629767173" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: 'var(--gold)', color: '#164344', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '700', fontSize: '16px', transition: 'transform 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
                 <i className="fa-regular fa-calendar-check"></i> Book Appointment
               </a>
-              <a href="tel:+919629765870" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', background: 'transparent', color: '#fff', border: '1px solid rgba(255,255,255,0.2)', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'background 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'} onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}>
-                <i className="fa-solid fa-phone"></i> 9629765870
+              <a href="tel:+919629767173" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', background: 'transparent', color: '#fff', border: '1px solid rgba(255,255,255,0.2)', padding: '16px 32px', borderRadius: '40px', textDecoration: 'none', fontWeight: '600', fontSize: '16px', transition: 'background 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'} onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}>
+                <i className="fa-solid fa-phone"></i> 9629767173
               </a>
             </div>
           </div>
